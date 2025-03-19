@@ -1,26 +1,14 @@
-node('node_name'){
-
-stage('stage1'){
-
-sh "echo stage1 is running "
-
-}
-stage('stage2'){
-
-sh "echo stage2 is running "
-
-}
-
-stage('stage3'){
-
-sh "echo stage3 is running "
-
-}
-
-stage('stage4'){
-
-sh "echo every stage successfully executed "
-
-}
-
+node('node_name') {
+    stage('stage1') {
+        sh "echo stage1 is running"
+    }
+    stage('stage2') {
+        sh "echo stage2 is running"
+    }
+    stage('stage3') {
+        sh "echo stage3 is running"
+    }
+    stage('stage4') {
+        sh "echo every stage successfully executed"
+    }
 }
